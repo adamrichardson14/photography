@@ -25,6 +25,8 @@ const EmblaCarousel = ({ slides }) => {
               <Image
                 className="embla__slide__img"
                 src={slide}
+                priority
+                placeholder="blur"
                 width={1920}
                 height={1080}
                 alt="A cool cat."
