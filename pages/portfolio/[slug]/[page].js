@@ -78,11 +78,10 @@ export default function PortfolioSlugPage({
   const images = categories[0].photos;
   return (
     <div>
-      <div className="relative w-screen h-52 lg:h-20">
-        <Nav info={websiteInfo} />
-      </div>
-
       <Container className="">
+        <div className="relative h-52 lg:h-20">
+          <Nav info={websiteInfo} />
+        </div>
         <div className="mt-5 text-2xl font-thin">{categories[0].name}</div>
         <div className="mt-1 text-sm text-gray-600">
           {categories[0].description}

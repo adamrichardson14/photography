@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Nav({ info }) {
   return (
-    <nav className="max-w-7xl px-4 sm:px-6 mx-auto text-black flex flex-col lg:flex-row lg:justify-between mt-8 lg:items-center absolute lg:left-1/2 lg:-translate-x-1/2 w-full">
+    <nav className="max-w-7xl mx-auto text-black flex flex-col lg:flex-row lg:justify-between mt-8 lg:items-center absolute lg:left-1/2 lg:-translate-x-1/2 w-full">
       <div>
         <Link href="/">
           <a className="text-4xl font-bold tracking-wider">{info.name}</a>
